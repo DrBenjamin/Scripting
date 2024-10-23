@@ -8,8 +8,6 @@ In folder `AutoIt` you will find the neccessary AutoIt components to run the scr
 
 Run the script `AutoIt\NAVIS.au3` with F5.
 
-Copy 
-
 ## Selenium
 
 In folder `Selenium` you will find the neccessary AutoIt components to run the script(s).
