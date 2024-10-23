@@ -10,15 +10,15 @@ Run the script `AutoIt\NAVIS.au3` with F5.
 
 ## Selenium
 
-In folder `Selenium` you will find the neccessary AutoIt components to run the script(s).
+In folder `Selenium` you will find the neccessary Selenium components to run the script(s).
 
 Run 
 
 ```bash
 python setup.py install
 ```
- 
-to install the needed required libraries.
+
+to install the needed required libraries. Then open the jupyter notebook `Selenium\NAVIS.ipynb` and run the code blocks.
 
 ## testim.io
 
