@@ -37,5 +37,6 @@ MouseUp("left")
 MouseClick("left",645,64,1)
 MouseClick("left",606,1067,1)
 MouseUp("left")
+Run("cmd.exe")
 
 #endregion --- Au3Recorder generated code End ---
