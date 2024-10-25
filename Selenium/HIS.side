@@ -7,6 +7,13 @@
     "id": "d5848c78-dc07-4626-9684-5060c46aec9d",
     "name": "NAVIS",
     "commands": [{
+      "id": "e9e911f3-2c43-43df-a0df-1402a97c08d2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "55eba6f3-93d3-44a8-b664-e8835f3bdbf3",
       "comment": "",
       "command": "open",
@@ -14,10 +21,60 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "449e4859-5916-4192-bd44-7e214cbdab23",
+      "id": "0529b840-8d80-4575-8a22-87aa207cfd11",
       "comment": "",
-      "command": "setWindowSize",
-      "target": "1296x688",
+      "command": "click",
+      "target": "id=b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6",
+      "targets": [
+        ["id=b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6", "id"],
+        ["name=userName", "name"],
+        ["css=#b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6", "css:finder"],
+        ["xpath=//input[@id='b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c61f3a-ec28-4eae-aaaa-5fc5b26dd65d",
+      "comment": "",
+      "command": "type",
+      "target": "id=b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6",
+      "targets": [
+        ["id=b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6", "id"],
+        ["name=userName", "name"],
+        ["css=#b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6", "css:finder"],
+        ["xpath=//input[@id='b1ff4500-6f92-4f66-93d1-a48cb8f8e6b6']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dmea_chir_azt2"
+    }, {
+      "id": "449ee36a-1bfa-4c04-bd58-9a7b8c8cc3fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=44009ca2-bb1a-40c3-95ef-06eaa5a0997a",
+      "targets": [
+        ["id=44009ca2-bb1a-40c3-95ef-06eaa5a0997a", "id"],
+        ["name=password", "name"],
+        ["css=#\\34 4009ca2-bb1a-40c3-95ef-06eaa5a0997a", "css:finder"],
+        ["xpath=//input[@id='44009ca2-bb1a-40c3-95ef-06eaa5a0997a']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Dmea24"
+    }, {
+      "id": "35b88769-78fc-4119-9a11-997e010b2dc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btnLogin div",
+      "targets": [
+        ["css=#btnLogin div", "css:finder"],
+        ["xpath=//cgm-button[@id='btnLogin']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8884ca9a-4295-4f32-bc97-587d76938277",
+      "comment": "",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
