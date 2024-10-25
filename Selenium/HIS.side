@@ -1,0 +1,142 @@
+{
+  "id": "1f9e0131-be55-4785-ac23-f968abaee22b",
+  "version": "2.0",
+  "name": "HIS",
+  "url": "https://cgm.demo-de.cloud.c3.cgm.ag",
+  "tests": [{
+    "id": "d5848c78-dc07-4626-9684-5060c46aec9d",
+    "name": "NAVIS",
+    "commands": [{
+      "id": "55eba6f3-93d3-44a8-b664-e8835f3bdbf3",
+      "comment": "",
+      "command": "open",
+      "target": "/cgmg3/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "449e4859-5916-4192-bd44-7e214cbdab23",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3caebe4b-fc45-4be9-84a6-1b8a1a4e3f49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > .cgm-toggle-button > .ui-checkboxradio-label",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > .cgm-toggle-button > .ui-checkboxradio-label", "css:finder"],
+        ["xpath=//div[@id='epr-dashboard-configuration-presenter']/div/div/cgm-dynamic-toggle-bar/div/cgm-toggle-button[2]/div/label", "xpath:idRelative"],
+        ["xpath=//cgm-toggle-button[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Fallsuche')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88138f8d-f8f9-4898-9aa5-9250889a4b2d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cgm-text-field",
+      "targets": [
+        ["css=.cgm-text-field", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='epr-snippet-container_E6EB90Y72QQ0BVWWO7']/div[3]/div/div/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Gernot"
+    }, {
+      "id": "88205e41-7adb-4843-b3f5-ea6283217d6f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.cgm-text-field",
+      "targets": [
+        ["css=.cgm-text-field", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='epr-snippet-container_E6EB90Y72QQ0BVWWO7']/div[3]/div/div/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f92cbca0-709d-4c25-9a71-c64d159a42df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu > .menu-link",
+      "targets": [
+        ["css=.main-menu > .menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Menü')]", "xpath:link"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e8eafa-2292-46e0-b526-57bc62675db1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quick-menu-item:nth-child(1) > .menu-item",
+      "targets": [
+        ["css=.quick-menu-item:nth-child(1) > .menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Fälle & Besuche')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/his/shell/main/default/his/pac/episodeListGroupedByLastOrgUnitFeature/default')]", "xpath:href"],
+        ["xpath=//li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a85f63-ae4d-46cf-83c1-731f05c8ee40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.quick-menu-item:nth-child(1) > .menu-item",
+      "targets": [
+        ["css=.quick-menu-item:nth-child(1) > .menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Fälle & Besuche')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/his/shell/main/default/his/pac/episodeListGroupedByLastOrgUnitFeature/default')]", "xpath:href"],
+        ["xpath=//li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "457b3046-d4b3-40e9-9af3-a4e1cbd08cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancytree-focused .cgm-truncation",
+      "targets": [
+        ["css=.fancytree-focused .cgm-truncation", "css:finder"],
+        ["xpath=//li[@id='ui-id-2']/span/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "065c357d-b5ef-4586-a59c-515f93cdd94e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c58798a-77f5-4a35-9003-3a2a9a38b1d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > .ng-scope:nth-child(1) > .ng-scope:nth-child(2) > .bedlocation:nth-child(1) span:nth-child(1) > .ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > .ng-scope:nth-child(1) > .ng-scope:nth-child(2) > .bedlocation:nth-child(1) span:nth-child(1) > .ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='epr-snippet-container_F5HOE7SGFVUT09JAV0']/div[3]/div/div/wma-ward-container-ng/div/div/wma-ward-ng/div/div/wma-room-ng[2]/div/wma-bedlocation-ng/div/div/wma-patient-ng/div/div/div/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//wma-room-ng[2]/div/wma-bedlocation-ng/div/div/wma-patient-ng/div/div/div/div/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "533cc4b3-8486-493a-87b3-3a95457c99c3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f22c2016-5c41-4727-8b03-e5b9a5d16342",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d5848c78-dc07-4626-9684-5060c46aec9d"]
+  }],
+  "urls": ["https://cgm.demo-de.cloud.c3.cgm.ag/"],
+  "plugins": []
+}
