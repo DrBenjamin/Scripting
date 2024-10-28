@@ -31,3 +31,11 @@ Install the [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide
 In folder `testim.io` you will find the information about the Testim script.
 
 Install the [Testim Editor](https://chromewebstore.google.com/detail/testim-editor/pebeiooilphfmbohdbhbomomkkoghoia).
+
+## [Anthropic](https://www.anthropic.com/news/3-5-models-and-computer-use)
+
+Computer using agent beta with Claude 3.5 Sonnet.
+
+## [Jarvis](https://www.theinformation.com/articles/google-preps-ai-that-takes-over-computers)
+
+Computer using agent coming in December...
