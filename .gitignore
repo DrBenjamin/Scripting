@@ -163,12 +163,8 @@ cython_debug/
 .vscode/settings.json
 Selenium/.vscode/settings.json
 Selenium/.vscode/settings.json
-<<<<<<< HEAD
 Anthropic/computer_use_demo/.streamlit/secrets.toml
-<<<<<<< HEAD
 Anthropic/computer_use_demo/.streamlit/config.toml
-=======
 .DS_Store
->>>>>>> 1ec699f (added secrets file)
-=======
->>>>>>> cde05aa (Revert "added secrets file")
+
+
