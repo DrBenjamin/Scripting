@@ -1,7 +1,6 @@
 """
 Entrypoint for streamlit, see https://docs.streamlit.io/
 """
-
 import asyncio
 import base64
 import os
@@ -58,8 +57,8 @@ def setup_state():
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "api_key" not in st.session_state:
-        # Try to load API key from file first, then environment
-        st.session_state.api_key = load_from_storage("api_key") or os.getenv(
+        # Try to load API key from secrets, first or environment
+        st.session_state.api_key = st.secrets.anthropic["key"] or load_from_storage("api_key") or os.getenv(
             "ANTHROPIC_API_KEY", ""
         )
     if "provider" not in st.session_state:
