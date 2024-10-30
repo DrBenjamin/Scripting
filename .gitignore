@@ -163,3 +163,5 @@ cython_debug/
 .vscode/settings.json
 Selenium/.vscode/settings.json
 Selenium/.vscode/settings.json
+Anthropic/computer_use_demo/.streamlit/secrets.toml
+Anthropic/computer_use_demo/.streamlit/config.toml
