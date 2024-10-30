@@ -164,4 +164,8 @@ cython_debug/
 Selenium/.vscode/settings.json
 Selenium/.vscode/settings.json
 Anthropic/computer_use_demo/.streamlit/secrets.toml
+<<<<<<< HEAD
 Anthropic/computer_use_demo/.streamlit/config.toml
+=======
+.DS_Store
+>>>>>>> 1ec699f (added secrets file)
