@@ -32,7 +32,7 @@ Install the [Testim Editor](https://chromewebstore.google.com/detail/testim-edit
 
 ## [Anthropic](https://www.anthropic.com/news/3-5-models-and-computer-use)
 
-Computer using agent beta with Claude 3.5 Sonnet.
+Computer using agent beta with Claude 3.5 Sonnet in a Docker container.
 
 ## [Jarvis](https://www.theinformation.com/articles/google-preps-ai-that-takes-over-computers)
 
