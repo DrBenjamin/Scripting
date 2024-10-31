@@ -38,4 +38,4 @@ Computer using agent beta with Claude 3.5 Sonnet.
 
 ## [Jarvis](https://www.theinformation.com/articles/google-preps-ai-that-takes-over-computers)
 
-Computer using agent coming in December...
+Computer using agent coming in December from Google.
