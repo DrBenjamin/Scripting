@@ -22,8 +22,6 @@ to install the needed required libraries. Then open the jupyter notebook `Seleni
 
 The pytest script is found in `tests\test_HIS.py` and should be run with the Testing Extension in VS Code.
 
-```bash
-
 Install the [Selenium IDE](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?pli=1).
 
 ## [testim.io](https://app.testim.io/#/project/fzkzpGlrRy38Frr2AbfS/branch/master/test/gNNDue1dN7gv4LFg?result-id=sGtMh88gII0vT4vO)
